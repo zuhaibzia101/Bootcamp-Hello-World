@@ -30,6 +30,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Installing surge
       run: npm install --global surge
-    - name: deloying using surge
+    - name: deploying using surge
       run: surge ./ bootcamp_zuhaib_project1.surge.sh --token ${{ secrets.ZUHIAB_TOKEN }}
 {{
